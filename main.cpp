@@ -28,11 +28,11 @@ int main()
     word = first;
     if (word[0] == 'a' || word[0] == 'e' || word[0] == 'i' || word[0] == 'o' || word[0] == 'u')
     {
-    cout<<"you are destined to be famous!"<<endl;
+    cout<<"you should keep a low profile."<<endl;
     }
     else 
     {
-    cout<<"you should keep a low profile."<<endl;
+    cout<<"you are destined to be famous!"<<endl;
     }
 
     word = last;
