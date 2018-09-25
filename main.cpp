@@ -26,13 +26,13 @@ int main()
     cout<<"your lucky number is "<<first.length()<<endl;
     
     word = first;
-    if (word[0] == 'a' || word[0] == 'e' || word[0] == 'i' || word[0] == 'o' || word[0] == 'u')
+    if (word[0] == 'a' || word[0] == 'e' || word[0] == 'i' || word[0] == 'o' || word[0] == 'u' || word[0] == 'A' || word[0] == 'E' || word[0] == 'I' || word[0] == 'O' || word[0] == 'U')
     {
-    cout<<"you should keep a low profile."<<endl;
+    cout<<"you are destined to be famous!"<<endl;
     }
     else 
     {
-    cout<<"you are destined to be famous!"<<endl;
+    cout<<"you should keep a low profile."<<endl;
     }
 
     word = last;
