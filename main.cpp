@@ -23,7 +23,24 @@ int main()
     cout<<", here is your fortune..."<<endl;
     
     lucky = first.length();
-    cout<<"Your lucky number is "<<first.length()<<" letters"<<endl;
+    cout<<"Your lucky number is "<<first.length()<<endl;
     
+    word = first;
+    if (word[0] == 'a' || word[0] == 'e' || word[0] == 'i' || word[0] == 'o' || word[0] == 'u')
+    {
+    cout<<"you are destined to be famous!"<<endl;
+    }
+    else 
+    {
+    cout<<"you should keep a low profile."<<endl;
+    }
+
+    word = last;
+    int number = word.length()-1;
+    if (word[number] == 'a' || word[number] == 'e' || word[number] == 'i' || word[number] == 'o' || word[number] == 'u')
+    {
+    cout<<"you have already met your true love."<<endl;
+    }
+    cout<<"have a good day!"<<endl;
   return 0;
 }
