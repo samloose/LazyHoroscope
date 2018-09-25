@@ -17,13 +17,13 @@ int main()
    
     cout <<"Welcome,";
     string word = first;
-    cout<<word[0];
+    cout<<" "<<word[0]<<".";
     word = last; 
-    cout<<word[0];
+    cout<<word[0]<<".";
     cout<<", here is your fortune..."<<endl;
     
     lucky = first.length();
-    cout<<"Your lucky number is "<<first.length()<<endl;
+    cout<<"your lucky number is "<<first.length()<<endl;
     
     word = first;
     if (word[0] == 'a' || word[0] == 'e' || word[0] == 'i' || word[0] == 'o' || word[0] == 'u')
